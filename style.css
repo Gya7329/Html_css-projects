@@ -78,6 +78,7 @@ html {
   height: 476px;
   justify-content: center;
   align-items: center;
+  background: url("/food-366875_1920.jpg");
 }
 
 #home::before {
@@ -234,13 +235,22 @@ footer {
   font-size: 1.5rem;
   border-radius: 10px;
   cursor: pointer;
-
-  margin-left: 595px;
-  margin-top: -12px;
 }
-.btn:hover {
+.btn-2:hover {
   background-color: black;
 }
 .center {
   text-align: center;
+}
+.btn-2 {
+  padding: 6px 20px;
+  border: 2px solid white;
+  background-color: brown;
+  color: white;
+  margin: 17px;
+  font-size: 1.5rem;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-left: 595px;
+  margin-top: -12px;
 }
